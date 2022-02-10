@@ -5,7 +5,7 @@ import Products from './components/Shop/Products';
 
 function App() {
 
-  const show = useSelector((state) => state.showCart);
+  const show = useSelector((state) => state.cart.showCart);
 
   return (
     <Layout>
